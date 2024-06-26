@@ -1,0 +1,11 @@
+Photo,Correct,Answer1,Answer2,Answer3,Answer4,Explanation
+./assets/1.webp,Stratocumulus,Stratus,Stratocumulus,Cirrocumulus,Cirrus,
+./assets/2.webp,Cumulus,Cumulus,Altocumulus,Stratus,Cumulonimbus,
+./assets/3.webp,Altocumulus,Stratus,Cirrostratus,Altostratus,Altocumulus,
+./assets/4.webp,Nimbostratus,Nimbostratus,Cirrus,Stratus,Cumulonimbus,
+./assets/5.webp,Cirrus,Stratocumulus,Cirrostratus,Cirrus,Altostratus,
+./assets/6.webp,Cirrocumulus,Cirrus,Stratus,Cirrocumulus,Cumulus,
+./assets/7.webp,Cirrostratus,Altostratus,Cirrostratus,Nimbostratus,Cumulus,
+./assets/8.webp,Altostratus,Nimbostratus,Stratus,Cirrus,Altostratus,
+./assets/9.webp,Stratus,Stratus,Cumulonimbus,Nimbostratus,Stratocumulus,
+./assets/10.webp,Cumulonimbus,Cumulonimbus,Nimbostratus,Stratus,Cumulus,
