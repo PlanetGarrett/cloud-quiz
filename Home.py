@@ -32,8 +32,8 @@ def check_ans(selected_ans, question_num, ans_key):
 
 if ss.counter == 0:
     with container.container():
-        st.header('Welcome to the Cloud Quiz')
-        st.subheader('See how well you know the ten common types of clouds with a short 10 question quiz.')
+        st.header('🌧️ Welcome to the Cloud Quiz')
+        st.subheader('See how well you know the ten most common types of clouds with a short 10 question quiz.')
         nl(1)
         if st.button('Start', on_click=increment_ss):
             container = st.empty()
@@ -50,7 +50,7 @@ if ss.counter != 0 and ss.counter < 11:
     ans4 = qDf.iat[q,5]
     explanation = qDf.iat[q,6]
     with container.container():
-        st.subheader(str(question_num) + '. What kind of cloud is shown in the image?')
+        st.subheader(str(question_num) + '. What type of cloud is shown in the image?')
         st.image(photo_dir)
         st.checkbox(ans1, key='a', on_change=check_ans, args=[ans1, q, 'a'])
         st.checkbox(ans2, key='b', on_change=check_ans, args=[ans2, q, 'b'])
